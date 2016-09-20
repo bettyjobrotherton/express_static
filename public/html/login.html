@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Express Static Site</title>
+    <title>Twitter...</title>
   </head>
   <body>
     <header>
-      <h1>Log In</h1>
+      <h4>Log in to Twitter</h4>
     </header>
-    <section>
-
-    </section>
+    <hr />
+    <main>
+      <form action="/login">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" />
+        </div>
+        <div>
+          <input type="checkbox" />Remember Me!
+        </div>
+          <button type="submit">Log In</button>
+      </form>
+    </main>
+    <hr />
     <footer>
-
+      <p>Don't have an account? <a href="/signup">Sign up</a></p>
     </footer>
   </body>
 </html>
