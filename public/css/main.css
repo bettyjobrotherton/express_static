@@ -1,11 +1,34 @@
-body {
-  font-family: Comic Sans MS;
-  background-color: salmon;
-}
-
 #main-header {
   background-color: #87cefa;
   width: 100%;
   height: 200px;
   color: #ffffff;
+}
+
+.access {
+  float: right;
+}
+
+ul.access li {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul.access li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul.access li a:hover {
+  background-color: #ffffff;
+  color: #87cefa;
+}
+
+.btn {
+  /*Creating the button feature below*/
+  padding: 10px 30px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
