@@ -1,3 +1,7 @@
+body {
+  background-color: AliceBlue;
+}
+
 #main-header {
   background-color: #87cefa;
   width: 100%;
@@ -53,4 +57,36 @@ header#main-header div h1 {
 #nav li a {
   text-decoration: none;
   background-color: white;
+}
+
+.card-group li {
+  display: inline-block;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.card * {
+  width: inherit;
+}
+
+.card img {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#signup-card {
+  width: 250px;
+  height: 335px;
+  padding-top: 10px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
 }
